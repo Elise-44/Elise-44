@@ -1,0 +1,823 @@
+
+/* GENERALE */
+html {
+    scroll-behavior:smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #24252a;
+    box-sizing: border-box;
+}
+
+img.logo-elise {
+    position: absolute;
+
+}
+.motImportant {
+    font-weight: bold;
+    color: rgb(120, 67, 218);
+}
+
+/* HEADER MENU */
+
+
+li,
+a,
+button,
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to bottom, #24252a 0%, transparent 100%);
+    z-index: 10;
+}
+
+.logo_elise_b {
+    width: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10px;
+    cursor: pointer;
+    margin-right: auto;
+
+
+}
+
+nav {
+    margin-left: auto;
+    
+}
+
+
+.nav_links {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav_links li {
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav_links a:hover {
+    color: #7918b1;
+}
+
+.nav_links .button_contact:hover {
+    color: #ffffff;
+}
+
+.button_contact {
+    padding: 9px 25px;
+    background-color: rgb(120, 67, 218);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: -25px;
+    color: white;
+}
+
+.button_contact:hover {
+    background-color: rgba(98, 43, 199, 0.8);
+}
+
+.button_contact:hover a {
+    color: white;
+}
+
+header {
+    justify-content: center;
+}
+
+/*____________________________________________________________________________________*/
+
+
+/*PAGE INDEX*/
+/* SECTION GENERALE */
+main {
+    display: block;
+}
+
+.bienvenue,
+#profil,
+#competences,
+#parcours,
+#realisation,
+#projet_et {
+    padding: 0 5vw 0 5vw;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+h1 {
+    position: relative;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    position: relative;
+    font-size: 40px;
+}
+h2::after {
+    content: "";
+    background-color: rgb(120, 67, 218);
+    width: 120px;
+    position: absolute;
+    height: 2px;
+    top: 50px;
+    left: 40px;
+}
+/* SECTION BIENVENUE */
+
+.bienvenueBloc {
+    display: flex;
+    flex-direction: row;
+    margin: 6vh 0 8vh 0;
+    justify-content: center;
+}
+.titreBienvenue::after {
+    content: "";
+    background-color: #24252a;
+    width: 120px;
+    position: absolute;
+    height: 2px;
+    top: 50px;
+    left: 24px;
+}
+
+.hr_infos {
+    width: 150px;
+    height: 2px;
+    background-color: white;
+    border: 0;
+    margin: 30px 0 30px 0;
+    text-align: center;
+}
+.illustration_elise {
+    border-radius: 400px;
+    height: 400px;
+    margin: 0;
+}
+.texteBloc {
+    margin-left: 100px;
+    vertical-align: middle;
+}
+.fleche_bienvenue {
+    width: 4vw;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    animation-name: animationFleche;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+.fleche_bienvenue:hover {
+    animation-play-state: paused;
+}
+@keyframes animationFleche {
+    0% {position:relative; top:0px; opacity: 0}
+    
+    100% {position:relative; top:20px; opacity: 1}
+}
+.hr_bienvenue {
+    margin: 40px 0 30px 0;
+    width: 270px;
+    height: 2px;
+    background-color: white;
+    border: 0;
+    text-align: center;
+}
+.reseaux_groupe_bienvenue {
+    display: flex;
+    flex-direction:row;
+    justify-content: start;
+    margin-top: 50px;
+}
+
+
+
+
+/* SECTION PROFIL */
+.profil {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding-top: 7vh;
+}
+
+.hr_infos {
+    width: 150px;
+    height: 2px;
+    background-color: white;
+    border: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.photoProfil {
+    border-radius: 10px;
+    height: 429px;
+    margin: 0;
+}
+
+.presentationEtParcours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.presentationBloc {
+    display: flex;
+    flex-direction: row;
+    margin: 4vh 0 8vh 0;
+    justify-content: center;
+
+}
+
+.infosPersonnelles {
+    margin-left: 40px;
+}
+
+.telechargerCV {
+    padding-top: 25px;
+    padding: 9px 15px;
+    background-color: rgb(120, 67, 218);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    margin: 4vh 0 3vh 0;
+    justify-content: center;
+}
+
+.telechargerCV:hover {
+    background-color: rgba(98, 43, 199, 0.8);
+}
+.description_profil {
+    width: 160vh;
+    line-height: 2;
+    text-align: center;
+    margin: 10px auto 30px auto;
+}
+
+/* SECTION PARCOURS */
+#parcours {
+    min-height: 300px;
+}
+/* timeline parcours */
+ol {
+    position: relative;
+    display: block;
+    margin: 100px;
+    height: 4px;
+    background: rgb(120, 67, 218);
+}
+
+
+ol::after {
+    content: "";
+    position: absolute;
+    top: -8px;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 10px;
+    border: 10px solid rgb(120, 67, 218);
+}
+
+ol::before {
+    left: -5px;
+}
+
+ol::after {
+    right: -8px;
+    border: 10px solid transparent;
+    border-right: 0;
+    border-left: 10px solid rgb(120, 67, 218);
+    border-radius: 3px;
+}
+
+/* ---- elements de timeline ---- */
+.timeline {
+    position: relative;
+    display: inline-block;
+    float:left;
+    width: 14vw;
+    font: bold 14px arial;
+    height: 50px; 
+}
+
+.timeline .diplome {
+    top: -47px;
+    left: 36%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.diplome {
+    margin-top: 30px;
+}
+
+.timeline .point {
+    content: "";
+    top: -8px;
+    left: 43%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: rgb(120, 67, 218);
+    position: absolute;
+    transition-duration: 0.4s;
+}
+.timeline:hover .point{
+    background: white;
+    transform:scale(1.2);
+}
+
+.timeline .description {
+    display: none;
+    background-color: #ffffff;
+    padding: 10px;
+    
+    margin-top: 20px;
+    position: relative;
+    font-weight: normal;
+    z-index: 1;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.description::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #f4f4f4;
+    position: absolute;
+    top: -5px;
+    left: 45%;
+}
+
+/* ---- effets hover ---- */
+.timeline:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+.timeline:hover .description {
+    display: block;
+}
+
+
+
+/* MAIN */
+.bienvenue {
+    margin-top: 30px;
+}
+
+/*_______________________________________________________________________________________________*/
+
+/* PAGE COMPETENCES */
+.competencesLogiciels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
+.logoLogiciel{
+    max-width: 120px;
+    height: 120px;
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+.logiciel:hover .logoLogiciel{
+    transform: scale(1.2);
+}
+.blocDescriptionLogiciel{
+    position: absolute;
+    width: 110%;
+    max-height: 120px;
+    top: 17px;
+    left: 20px;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    background: rgba(60, 61, 68, 0.98);
+    transform: scaleY(0);
+    border: 1px solid white;
+    border-radius: 50px;
+    transition: transform .7s;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.logiciel:hover .blocDescriptionLogiciel{
+    transform: scale(1);
+}
+
+.logiciel{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin:0 70px 0 0;
+    width: 150vw;
+    max-width: 35vw;
+}
+.nomLogiciel{
+    text-align: center;
+    margin-top: 20px;
+}
+.descriptionLogiciel{
+    position: absolute;
+    padding-left: 22%;
+    text-align: center;
+}
+.logiciel:hover .nomBarre{
+    transform: scale(0);
+}
+.titreLogiciel{
+    margin: 2vh 0 1.5vh 0;
+    text-transform: uppercase;
+}
+.texteLogiciel{
+    font-size: 16px;
+    margin: 0;
+    padding: 0 1.5vw 0 0.5vw;
+    line-height: 1.5;
+}
+.nomBarre{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5.5vw;
+    align-items: center;
+}
+
+
+/*_______________________________________________________________________________________________*/
+
+/*PAGE REALISATION*/
+
+#realisation h2.title {
+    text-transform: capitalize;
+    font: bold 30px;
+    font-family: 'Open sans', sans-serif ;
+    margin-bottom: 35px;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+#realisation p.projets {
+    max-width: 800px;
+    text-align: center;
+    padding: 0 20px;
+    line-height: 2;
+    justify-content: center;
+    margin: 80px auto 0px auto;
+    padding-bottom: 50px;
+}
+.galerie_ensemble {
+    z-index: 2;
+}
+
+ul.galerie_realisation {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.hr_projets {
+    width: 300px;
+    height: 2px;
+    background-color: white;
+    border: 0;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+#realisation .galerie_realisation li {
+    margin: 20px;
+    height: 350px;
+    border-radius: 3px;
+    list-style-type: none;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center center;
+    /*position centrer sur image cadre*/
+}
+
+#realisation .galerie_realisation li.cadre_projets {
+    width: 370px;
+    height: 310px;
+}
+
+/* @media (max-width: 1000px) {
+    .realisation .galerie_realisation li.cadre_projets {
+        width: 570px;
+        height: 510px;
+    }
+} */
+
+.cadre_projets {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 310px;
+    box-shadow: 3px 3px 7px #000;
+    border-radius: 0 0 4px 4px;
+    position: relative;
+}
+
+.infosProjets {
+    display: block;
+    position: absolute;
+    font-size: 13px;
+    line-height: 1.40;
+    font: 13px;
+    font-family: 'Montserrat', sans-serif ;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.7) 100%);
+    visibility: hidden;
+    opacity: 0;
+    transition: .15s ease;
+    transition-property: opacity, visibility;
+}
+
+.infosProjets h3 {
+    padding: 0 10% .5em 10%;
+
+}
+
+.cadre_projets:hover .infosProjets {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*_______________________________________________________________________________________________*/
+
+/*PAGE CONTACT*/
+
+
+.section_contact {
+    width: 450px;
+    margin: auto;
+    color: white;
+}
+
+form>div {
+    padding-top: 20px;
+}
+
+form>div>label {
+    padding-right: 20px;
+}
+
+form>div>input {
+    width: 436px;
+    padding: 5px;
+    justify-content: flex-end;
+    display: flex;
+    margin: 8px 0 0 0;
+    border-radius: 10px;
+}
+
+.section_contact>h3 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 2px;
+    border-color: white;
+    border-bottom: 2px solid;
+}
+
+
+
+
+
+#commentaire {
+    overflow: scroll;
+    color: rgb(0, 0, 0);
+    margin-top: 8px;
+    width: 436px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#prenom,
+#nom,
+#mail,
+#objet,
+#commentaire a:hover {
+    background-color: white;
+    color: black;
+}
+
+textarea {
+    resize: none;
+}
+
+.commentaire::-webkit-scrollbar {
+    display: none;
+}
+
+.btn-envoyer {
+    padding: 9px 25px;
+    background-color: rgb(120, 67, 218);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    display: block;
+    margin: 20px auto 0 auto;
+}
+
+.btn-envoyer:hover {
+    background-color: rgba(98, 43, 199, 0.8);
+
+}
+
+header {
+    margin-bottom: 25px;
+}
+.reseaux_groupe_contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.picto {
+    display: block;
+    width: 50px;
+    padding: 0 20px; 
+}
+.img_picto {
+    width:40px;
+    transition-duration: 0.5s;
+}
+.img_picto:hover {
+    transform: scale(1.3); 
+}
+footer {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    
+}
+
+/*_______________________________________________________*/
+
+/* PAGE ETONNANTS VOYAGEURS */
+/* Mise en forme galerie */
+.projetBloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.slideBloc {
+    display: flex;
+    flex-direction: row;
+    margin: 4vh 0 8vh 0;
+    justify-content: center;
+}
+
+.galerie {
+    width: 440px;
+    box-shadow: 3px 3px 7px #000;
+    overflow:hidden;
+}
+
+.galerie ul {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.galerie li {
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.galerie figure {
+    margin: 0;
+}
+
+.galerie figcaption {
+    font-style: italic;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.galerie img {
+    width: 400px;
+    display: block;
+}
+
+/*animation galerie2 */
+
+.galerie_logo ul{
+    animation-name: sliderLogo;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes sliderLogo{
+    
+    0%, 18%{
+        transform: translateX(0%);
+    }
+    
+    20.5%, 38.5%{
+        transform: translateX(-20%);
+    }
+
+    41%, 59%{
+        transform: translateX(-40%);
+    }
+    61.5%, 79.5%{
+        transform: translateX(-60%);
+    }
+ 
+    82%, 100%{
+        transform: translateX(-80%);
+    }
+    102.5%, 120.5%{
+        transform: translateX(-100%);
+    }
+}
+.logoInfos {
+    width: 700px;
+    line-height: 2;
+    margin: auto auto auto 50px;
+}
+.affiche {
+    width: 440px;
+    height: 623px;
+    box-shadow: 3px 3px 7px #000;
+}
+.afficheBloc {
+    display: flex;
+    flex-direction: row;
+    margin: 4vh 0 8vh 0;
+    justify-content: center;
+    
+}
+.infosBloc {
+    width: 700px;
+    line-height: 2;
+    margin: auto auto auto 50px;
+}
+.brochure {
+    width: 550px;
+    box-shadow: 3px 3px 7px #000;
+}

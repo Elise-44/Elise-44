@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Cirriculum vitae | Elise BOUARD | Etudiante MMI1</title>
+    <meta name="description" content="Page index du curriculum vitæ de Elise BOUARD " />
+    <link rel="shortcut icon" href="images/logo-elise.svg" type="images/logo-elise">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body class="contact">
+    <header>
+        <a href="index.php">
+            <img class="logo_elise_b" src="images/logo_elise_b.svg" alt="Logo élise Bouard." id="logoeb" />
+        </a>
+
+        <nav>
+            <ul class="nav_links">
+                <li><a href="./index.php#profil">Accueil</a></li>
+                <li><a class="button_contact" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main id="main_contact">
+
+
+        <section class="section_contact">
+            <h3>Contact</h3>
+            <form action="recevoir-donnees-formulaire.html" method="get">
+
+                <div>
+                    <label for="nom">Nom</label>
+                    <input placeholder="Votre nom" type="text" name="nom" id="nom" />
+                </div>
+                <div>
+                    <label for="prenom">Prénom</label>
+                    <input placeholder="Votre prénom" type="text" name="prenom" id="prenom" />
+                </div>
+                <div>
+                    <label for="mail">Adresse mail</label>
+                    <input placeholder="Votre adresse e-mail" type="text" name="mail" id="mail" />
+                </div>
+                <div>
+                    <label for="objet">Objet</label>
+                    <input placeholder="Objet de votre message" type="text" name="objet" id="objet" />
+                </div>
+                <div>
+                    <label for="commentaire">Commentaire</label>
+                    <textarea id="commentaire" class="commentaire" name="commentaire" rows="10" cols="50"></textarea>
+                </div>
+                <button type="submit" class="btn-envoyer">Envoyer</button>
+
+            </form>
+            <div class="reseaux_groupe_contact">
+                <div class="picto">
+                    <a href="https://www.linkedin.com/in/élise-bouard-8120871b9" target="_blank">
+                        <img title="Me suivre sur LinkedIn" class="img_picto" src="images/pictogramme/SVG/pico_linkedin.svg" alt="LinkedIn d'élise" />
+                    </a>
+                </div>
+
+                <div class="picto">
+                    <a href="https://www.behance.net/elisebouard" target="_blank">
+                        <img title="Rejoindre mon behance" class="img_picto" src="images/pictogramme/SVG/picto_behance.svg" alt="Behance d'élise" />
+                    </a>
+                </div>
+
+                <div class="picto">
+                    <a href="mailto:contact@bouardelise.pro@gmail.com" target="_blank">
+                        <img title="Me contacter par mail" class="img_picto" src="images/pictogramme/SVG/picto_mail.svg" alt="Mail d'élise" />
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+    <p>© Copyright Site web de Elise BOUARD - 2021 - Tous droits réservés. - Mentions Légales</p>
+</footer>
+</body>
+
+
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="fond-blanc-grand" serif:id="fond blanc grand">
+        <g>
+            <g>
+                <g>
+                    <path d="M41.072,50L8.928,50C3.998,50 -0,46.003 -0,41.072L-0,8.928C-0,3.998 3.998,0 8.928,0L41.072,0C46.003,0 50,3.998 50,8.928L50,41.072C50,46.003 46.003,50 41.072,50ZM28.542,27.41L25.576,29.363C25.4,29.478 25.201,29.535 25,29.535C24.799,29.535 24.6,29.478 24.424,29.363L21.458,27.408L8.3,35.73C8.462,36.726 9.287,37.499 10.329,37.499L39.671,37.499C40.713,37.499 41.538,36.726 41.7,35.73L28.542,27.41ZM30.462,26.144L41.767,33.291L41.767,18.695L30.462,26.144ZM8.233,18.695L8.233,33.291L19.538,26.144L8.233,18.695ZM39.671,14.445L10.329,14.445C9.283,14.445 8.453,15.224 8.296,16.228L25,27.234L41.704,16.228C41.547,15.224 40.717,14.445 39.671,14.445Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
