@@ -820,4 +820,5 @@ footer {
 .brochure {
     width: 550px;
     box-shadow: 3px 3px 7px #000;
+    background: none;
 }
