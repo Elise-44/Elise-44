@@ -328,7 +328,7 @@ ol::after {
 .timeline {
     position: relative;
     display: inline-block;
-    float:left;
+    float: left;
     width: 14vw;
     font: bold 14px arial;
     height: 50px; 
